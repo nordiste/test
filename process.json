@@ -1,0 +1,17 @@
+{
+   "apps" : [{
+      "name" : "ecclesia",
+      "script" : "app.js"
+   }],
+   "deploy" : {
+     // "production" is the environment name
+     "production" : {
+       "user" : "ubuntu",
+       "host" : ["localhost"],
+       "ref"  : "origin/master",
+       "repo" : "git@github.com:nordiste/test.git",
+       "path" : "/var/eccelsia",
+       "post-deploy" : "npm install; grunt dist"
+      },
+   }
+}
