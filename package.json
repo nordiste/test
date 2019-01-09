@@ -1,0 +1,19 @@
+{
+  "name": "testecc",
+  "version": "1.0.0",
+  "description": "contenu du readme",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordiste/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nordiste/test/issues"
+  },
+  "homepage": "https://github.com/nordiste/test#readme"
+}
